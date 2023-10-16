@@ -1,0 +1,18 @@
+{
+  "name": "cy.basico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:open:mobile": "npx cypress open --config viewportWidth=410 viewportHeigth=860",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:mobile": "npx cypress run --config viewportWidth=410 viewportHeigth=860"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.3.0"
+  }
+}
